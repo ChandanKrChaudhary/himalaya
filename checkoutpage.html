@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkoutpage.css">
+</head>
+<body>
+    <form action="">
+        <div class="container">
+            <div class="subcont">
+                <div class="check">
+                    <div class="subcheck">
+                        <div class="logo">
+                            <img src="//cdn.shopify.com/s/files/1/0399/1728/9633/files/90-Plus-years-500_160x.png?v=1609913612" srcset="//cdn.shopify.com/s/files/1/0399/1728/9633/files/90-Plus-years-500_160x.png?v=1609913612 1x, //cdn.shopify.com/s/files/1/0399/1728/9633/files/90-Plus-years-500_320x.png?v=1609913612 2x" alt="">
+                        </div>
+                        <div class="option">
+                            <a class="breadcrumb__link">Cart &gt;</a>
+                            <span class="breadcrumb__text">Information &gt;</span>
+                            <span class="breadcrumb__text">Shipping &gt;</span>
+                            <span class="breadcrumb__text">Payment</span>
+                        </div>
+                        <div class="dynamic">
+                            <div class="dynamic-checkout dynamic-checkout--loading">
+                                <h2 class="dynamic-checkout__title">
+                                  Express checkout
+                                </h2>
+                                <div>
+                                    <div class="pay_now">
+                                        <input id="ShopPay" class="payment" type="submit" value="shop Pay">
+                                        <input id="AmazonPay" class="payment" type="submit" value="amazon pay">
+                                        <input id="GooglePay" class="payment" type="submit" value="G Pay">
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="alternative-payment-separator" data-alternative-payment-separator="">
+                            <span class="alternative-payment-separator__content">
+                              OR
+                            </span>
+                        </div>
+                        <div class="contact_details">
+                            <div class="fisrt_row">
+                                <div id="text1"><h3>Contact information</h3></div>
+                                <div id="text2"> Already have an account?
+                                    <a href="signInpage.html">
+                                        Log in
+                                    </a> 
+                                </div>
+                            </div>
+                            <input class="input1" type="text/email" placeholder="Email or mobile phone number">
+                            <div class="check1">
+                                <input  id="checkbox" type="checkbox">
+                                <label class="checkbox__label" for="checkout_buyer_accepts_marketing">
+                                    Email me with news and offers
+                                </label>
+                            </div>
+                            <div class="shipingaddress">
+                                <div class="section__header">
+                                    <h2 class="section__title" id="section-delivery-title">
+                                        Shipping address
+                                    </h2>
+                                </div>
+                                <div class="field__input-wrapper">
+                                    <input placeholder="First name (optional)" type="text" class="input">
+                                    <input placeholder="Last name " type="text" class="input">
+                                    <input placeholder="Address" type="text" class="input">
+                                    <input placeholder=" Apartment, suite, etc. (optional)" type="text" class="input">
+                                    <input placeholder="City" type="text" class="input">
+                                    <div class="select">
+                                        <div class="add">
+                                            <label class="field__label--visible" for="shipping_country">Country/region</label>
+                                            <select id="shipping" placeholder="Country/region">
+                                                <option   value="India">India</option>
+                                                <option  value="Nepal">Nepal</option>
+                                            </select>
+                                        </div>
+                                        <div class="add">
+                                            <label class="field__label--visible" for="shipping_state">State</label>
+                                            <select id="shipping" placeholder="State">
+                                                <option   value="Bihar">Bihar</option>
+                                                <option  value="Bengal">Bengal</option>
+                                            </select>
+                                        </div>
+                                        <div class="add"  >
+                                            <input id="ZIP" type="number" placeholder="ZIP Code">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <input placeholder="Phone" type="number" class="input">
+                                    </div>    
+                                </div>
+                                <div class="continue">
+                                    <div class="contishop">
+                                        <input class="contorder" type="submit" value="Continue to shipping">
+                                    </div>
+                                    <div class="return">
+                                        <a class="returncard" ><span>Return to Cart</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="summary">
+                        <div class="subsummary">
+                            <table class="product-table">
+                                <thead class="product-table__header">
+                                    <tr>
+                                        <th>Product image</th>
+                                        <th>Description</th>
+                                        <th>Quantity</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="product-thumbnail">
+                                               
+                                            </div>
+                                        </td>
+                                        <th class="product__description">
+                                           
+                                        </th>
+                                        <td class="product__quantity">
+                                            
+                                        </td>
+                                        <td class="product__price">
+                                          
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="coupn">
+                                <div class="inputbox">
+                                    <input class="code" type="text"  placeholder="Discount code">
+                                </div>
+                                <div class="button">
+                                    <input id="buttoncolor" class="apply" type="submit" value="Apply">
+                                </div>
+                            </div>
+                            <!-- total table -->
+                            <div class="total">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th class="total-line__name">Subtotal</th>
+                                            <td class="total-line__price">
+                                               
+                                            </td>
+                                        </tr>
+                                        <tr  class="total-line total-line--shipping">
+                                            <th class="total-line__name">
+                                                <span>
+                                                    Shipping
+                                                </span>
+                                            </th>
+                                            <td class="total-line__price">
+                                                <span class=" order-summary__small-text">
+                                                    Calculated at next step
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                    <tfoot class="total-line-table__footer">
+                                        <tr class="total-line">
+                                            <th class="payment-due-label">
+                                                <span class="payment-due-label__total">Total</span>
+                                            </th>
+                                            <td class="payment-due">
+                                                <span class="payment-due__currency">USD</span>
+                                                <span class="payment-due__price skeleton-while-loading--lg">
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
+<script src="checkoutpage.js"></script>
