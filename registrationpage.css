@@ -8,17 +8,17 @@ html,body{
 }
 
 /* top page */
+.topcont{
+    width: 100%;
 
-.top{
-    width: 100%;   
-    background: #ff7451;  
+    
 }
-.top>div{
-    width: 50%;
-    text-align: center;
-    /* margin-top: 20px; */
-    margin-left: 320px;
+.toptitle{
+    width: 100%;
     padding: 1px;
+    /* color: white; */
+    text-align: center;
+    background: #ff7451; 
     font-weight: 400; 
     color: #fff;
     cursor: grab;
@@ -26,49 +26,47 @@ html,body{
     box-sizing: border-box;
     min-height: 1px;
     letter-spacing:0.1px;
-    font-size: 18px;
-    line-height: 17px;
+    font-size: 20px;
+    line-height: 2px;
     display: block;
 }
-/* navigation bar */
-
-.nav{
-    display: flex;
+/* navbar */
+.navbox{
     width: 100%;
-    margin-top: -10px;
+    border: 1px solid blue;
 }
-.logo{
-    max-width: 15%;
-    height: auto;
-    font-weight:unset;
-    margin-left: 20px;
-    padding-top: 25px;
-    padding-left: 55px;
-    cursor: pointer;
+.navbar{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    /* margin-left: 20px; */
+    padding: 20px;
+    border: 1px solid blue;
+}
 
-}
 .left{
     display: flex;
-    width: 20%;
+    width:40%;
     font-family: Poppins,sans-serif;
     color: #777777;
     font-size:18px;
     letter-spacing: 2px;
-    padding: 40px 12px ;
+    margin-left: 20px;
+    padding-bottom: 10px;
     cursor: pointer;
     justify-content: space-between;
 }
 .right{
     display: flex;
-    width: 15%;
-    padding: 40px 10px ;
-    padding-left: 450px;
+    justify-content: space-between;
+    width: 10%;
+    /* padding: 40px 10px ; */
+    /* padding-left: 600px; */
     font-family: Poppins,sans-serif;
     font:18px;
     color: #777777;
     cursor: pointer;
     margin-left: 10px;
-    justify-content: space-between;
 }
 .space{
     width: 100%;
